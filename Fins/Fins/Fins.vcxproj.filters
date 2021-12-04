@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\导出">
+      <UniqueIdentifier>{1de8eecc-0dcf-4c5b-b8c4-f01275841cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\导出C">
+      <UniqueIdentifier>{aff4c94e-da66-4d75-b2e8-592d3777cfcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\标准">
+      <UniqueIdentifier>{5b442bf2-8c21-4bdb-a3c9-b035bcd32738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\处理">
+      <UniqueIdentifier>{ee1f054a-a670-45a1-a07b-86075300d509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\处理C">
+      <UniqueIdentifier>{5c3d00d5-8b1e-4e4e-a9af-83ac020fb968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\数据">
+      <UniqueIdentifier>{dbeefa8d-0472-43bf-b39b-fd015881e475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\数据C">
+      <UniqueIdentifier>{0ce0c1a3-52e7-42e0-b61e-17af95ff68de}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="Fins.def">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Standrad\ModuleDevelopHelper.h">
+      <Filter>头文件\标准</Filter>
+    </ClInclude>
+    <ClInclude Include="Standrad\vSynch.h">
+      <Filter>头文件\标准</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle\FinsHandle.h">
+      <Filter>头文件\处理</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle\Communication.h">
+      <Filter>头文件\处理</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\ErrCode.h">
+      <Filter>头文件\数据</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\HandleFunction.h">
+      <Filter>头文件\数据</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Macro.h">
+      <Filter>头文件\数据</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\MyString.h">
+      <Filter>头文件\数据</Filter>
+    </ClInclude>
+    <ClInclude Include="Data\Sturct.h">
+      <Filter>头文件\数据</Filter>
+    </ClInclude>
+    <ClInclude Include="Export\InterfaceExport.h">
+      <Filter>头文件\导出</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle\FinsReadWrite.h">
+      <Filter>头文件\处理</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Export\ModuleDevelopHelper.cpp">
+      <Filter>源文件\导出C</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\FinsHandle.cpp">
+      <Filter>源文件\处理C</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\Communication.cpp">
+      <Filter>源文件\处理C</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\HandleFunction.cpp">
+      <Filter>源文件\数据C</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\MyString.cpp">
+      <Filter>源文件\数据C</Filter>
+    </ClCompile>
+    <ClCompile Include="Data\Struct.cpp">
+      <Filter>源文件\数据C</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle\FinsReadWrite.cpp">
+      <Filter>源文件\处理C</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Fins.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
